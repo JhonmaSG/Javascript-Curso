@@ -20,3 +20,16 @@ function sumar(op1, op2, funcionCallBack){
 }
 
 sumar(5, 3, imprimir);
+
+//Llamadas asíncronas con uso setTimeout
+function miFuncionCallBack(){
+    console.log('Saludo aíncrono después de 3 seg');
+}
+
+//function callback, milisegundos
+setTimeout(miFuncionCallBack, 3000)
+
+//
+setTimeout(function(){console.log('Saludo asíncrono 2')}, 4000);
+
+setTimeout(() => console.log('saludo asíncrono 3'), 5000);
