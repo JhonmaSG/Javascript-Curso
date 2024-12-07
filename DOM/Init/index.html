@@ -6,13 +6,15 @@
 </head>
 <body>
     <h1 id="cabecero">Ejemplo DOM con JavaScript</h1>
-    <p id="parrafo">Saludos!</p>
+    <p id="parrafo1">Saludos!</p>
+    <p id="parrafo2">Otro Parrafo</p>
     <script>
-        let cabecero = document.getElementById('cabecero').innerHTML;
-        let parrafo = document.getElementById('parrafo').innerHTML;
-        console.log('valor cabecero: ' + cabecero);
-        console.log('valor parrafo: ' + parrafo);
-        console.log('Saludos desde JavaScript');
+        let cabecero = document.getElementById('cabecero');
+        let parrafo = document.getElementById('parrafo1');
+        console.log(`valor cabecero: ${cabecero.innerHTML}`);
+        console.log(`valor parrafo: ${parrafo.innerHTML}`);
+        parrafo.innerHTML = 'Nuevo valor del parrafo';
+        cabecero.innerHTML = 'Nuevo cabecero';
     </script>    
 </body>
 </html>
