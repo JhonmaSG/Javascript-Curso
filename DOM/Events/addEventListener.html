@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+
+<body">
+    <h1 id="titulo">Manejo DOM con JavaScript</h1>
+    <br/>
+    Nombre: <input type="text" id="nombre"/>
+    <br/><br/>
+    Apellido: <input type="text" id="apellido"/>
+    <script>
+        document.getElementById('nombre').addEventListener('focus',cambiar);
+        document.getElementById('nombre').addEventListener('blur',regresar);
+
+        document.getElementById('apellido').addEventListener('focus',cambiar);
+        document.getElementById('apellido').addEventListener('blur',regresar);
+
+        function cambiar(evento){ //(evento) es opcional
+            let componente = evento.target;
+            componente.style.background = 'yellow';
+        }
+        function regresar(evento){ //(evento) es opcional
+            let componente = evento.target;
+            componente.style.background = 'white';
+        }
+    </script>
+</body>
+</html>
