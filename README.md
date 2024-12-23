@@ -1,9 +1,9 @@
 # Curso de JavaScript: De lo Básico a lo Avanzado 🚀  
 [![Repositorio](https://img.shields.io/badge/GitHub-Javascript--Curso-blue?logo=github)](https://github.com/JhonmaSG/Javascript-Curso)
 
-Bienvenido al repositorio oficial del **Curso de JavaScript**. Este curso está diseñado para enseñarte desde los fundamentos del lenguaje hasta conceptos avanzados, cubriendo todo lo necesario para que domines JavaScript de manera práctica y eficiente.  
+Bienvenido al repositorio pra **aprender JavaScript**. Este curso está diseñado para aprender desde los fundamentos del lenguaje hasta conceptos avanzados, cubriendo todo lo necesario para que domines JavaScript de manera práctica y eficiente.  
 
-## ¿Qué incluye este curso? 📚
+## Contenido 📚
 
 El repositorio está organizado en módulos que abarcan:  
 
