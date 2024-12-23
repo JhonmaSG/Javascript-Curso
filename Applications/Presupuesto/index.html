@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/estilos.css" rel="stylesheet">
     <title>Aplicación Presupuesto</title>
 </head>
+
 <body onload="cargarApp()">
 
     <div class="cabecero">
@@ -45,8 +47,8 @@
                     <option value="ingreso" selected>+</option>
                     <option value="egreso">-</option>
                 </select>
-                <input type="text" class="agregar_descripcion" placeholder="Agregar Descripción" id="descripcion"/>
-                <input type="number" class="agregar_valor" placeholder="Valor" id="valor" step="any"/>
+                <input type="text" class="agregar_descripcion" placeholder="Agregar Descripción" id="descripcion" />
+                <input type="number" class="agregar_valor" placeholder="Valor" id="valor" step="any" />
                 <button class="agregar_btn" onclick="agregarDato()">
                     <ion-icon name="checkmark-circle-outline"></ion-icon>
                 </button>
@@ -58,17 +60,17 @@
         <div class="ingreso">
             <h2 class="ingreso_titulo">Ingresos</h2>
             <div id="lista-ingresos">
-                
+
             </div>
         </div>
         <div class="egreso">
             <h2 class="egreso_titulo">Egresos</h2>
             <div id="lista-egresos">
-                
+
             </div>
         </div>
     </div>
-    
+
     <script type="module" src="js/Dato.js"></script>
     <script type="module" src="js/Ingreso.js"></script>
     <script type="module" src="js/Egreso.js"></script>
@@ -77,4 +79,5 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
