@@ -1,4 +1,6 @@
 /*
+Reference: https://adventjs.dev/es/challenges/2024/
+
 Santa Claus 🎅 quiere enmarcar los nombres de los niños buenos para decorar su taller 🖼️, pero el marco debe cumplir unas reglas específicas. Tu tarea es ayudar a los elfos a generar este marco mágico.
 
 Reglas:
